@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <section id="dishes" style="padding-top:120px;padding-bottom:120px;">
     <div class="dishes-section">
       <div class="dishes-header reveal">
@@ -36,7 +36,7 @@ const dishes = [
     en: 'Creamy Mushroom Pasta',
     desc: '三种蘑菇慢炒出香，搭配手工宽面和帕玛森芝士',
     price: '¥78',
-    image: 'https://images.unsplash.com/photo-1521389508150-c42e1dc1b97c?w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80'
   },
   {
     name: '焦糖布蕾拼盘',
@@ -47,3 +47,4 @@ const dishes = [
   }
 ];
 </script>
+
