@@ -36,15 +36,16 @@ const dishes = [
     en: 'Creamy Mushroom Pasta',
     desc: '三种蘑菇慢炒出香，搭配手工宽面和帕玛森芝士',
     price: '¥78',
-    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&q=80'
   },
   {
     name: '焦糖布蕾拼盘',
     en: 'Crème Brûlée Platter',
     desc: '香草、伯爵茶、柚子三种口味组合，适合分享',
     price: '¥68',
-    image: 'https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80'
   }
 ];
 </script>
+
 
