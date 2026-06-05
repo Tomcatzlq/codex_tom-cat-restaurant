@@ -1,0 +1,54 @@
+<template>
+  <div>
+    <NavBar />
+    <HeroSection />
+    <AboutSection />
+    <div class="section-divider"></div>
+    <DishesSection />
+    <div class="section-divider"></div>
+    <AmbianceSection />
+    <div class="section-divider"></div>
+    <MenuSection />
+    <div class="section-divider"></div>
+    <ChefSection />
+    <div class="section-divider"></div>
+    <ReservationSection />
+    <SiteFooter />
+  </div>
+</template>
+
+<script setup>
+import { onMounted, onUnmounted } from 'vue';
+import NavBar from './components/NavBar.vue';
+import HeroSection from './components/HeroSection.vue';
+import AboutSection from './components/AboutSection.vue';
+import DishesSection from './components/DishesSection.vue';
+import AmbianceSection from './components/AmbianceSection.vue';
+import MenuSection from './components/MenuSection.vue';
+import ChefSection from './components/ChefSection.vue';
+import ReservationSection from './components/ReservationSection.vue';
+import SiteFooter from './components/SiteFooter.vue';
+
+let observer;
+
+onMounted(() => {
+  document.querySelector('.hero')?.classList.add('visible');
+
+  observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    },
+    { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+});
+
+onUnmounted(() => {
+  observer?.disconnect();
+});
+</script>
