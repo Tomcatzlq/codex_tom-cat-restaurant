@@ -24,14 +24,14 @@ const gallery = [
   },
   {
     caption: '吧台 · Bar Counter',
-    image: 'https://images.unsplash.com/photo-1560624052-449f5ddf0c31?w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1575037614876-c38a4d44f5b8?w=800&q=80'
   },
   {
-    caption: '窗边位 · Window Seats',
-    image: 'https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&q=80'
+    caption: '窗边�?· Window Seats',
+    image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&q=80'
   },
   {
-    caption: '开放厨房 · Open Kitchen',
+    caption: '开放厨�?· Open Kitchen',
     image: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=900&q=80'
   }
 ];
