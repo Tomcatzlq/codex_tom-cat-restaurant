@@ -29,7 +29,7 @@ const menu = [
     title: '前菜 · 小食',
     items: [
       { name: '猫咪薯条拼盘', en: 'Tom Cat Fries Platter', price: '¥38' },
-      { name: '香辣鸡翅桶', en: 'Spicy Chicken Wings', price: '¥48' },
+      { name: '香辣鸡翅篮', en: 'Spicy Chicken Wings', price: '¥48' },
       { name: '番茄芝士焗虾', en: 'Baked Tomato Cheese Shrimp', price: '¥68' }
     ]
   },

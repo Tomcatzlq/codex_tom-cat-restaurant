@@ -27,11 +27,11 @@ const gallery = [
     image: 'https://images.unsplash.com/photo-1575037614876-c38a4d44f5b8?w=800&q=80'
   },
   {
-    caption: '窗边�?· Window Seats',
+    caption: '窗边位 · Window Seats',
     image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&q=80'
   },
   {
-    caption: '开放厨�?· Open Kitchen',
+    caption: '开放厨房 · Open Kitchen',
     image: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=900&q=80'
   }
 ];

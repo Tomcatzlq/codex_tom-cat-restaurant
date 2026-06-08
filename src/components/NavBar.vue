@@ -1,6 +1,6 @@
 <template>
-  <nav :class="{ scrolled: scrolled }">
-    <div class="nav-logo serif">汤姆猫 <span>Tom Cat</span></div>
+  <nav :class="{ scrolled }">
+    <div class="nav-logo serif">汤姆猫餐厅<span>Tom Cat</span></div>
     <ul class="nav-links">
       <li><a href="#about">关于我们</a></li>
       <li><a href="#dishes">招牌菜品</a></li>
